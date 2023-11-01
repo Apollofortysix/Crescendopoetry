@@ -1,0 +1,25 @@
+.bg {
+    background-image: url(/3963772f67ace0280c2df69a8040d2c7.jpg);
+}
+h1 {
+    font-size: 80px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    margin: 100px 0px 100px 0px;
+}
+button {
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    color: whitesmoke;
+    border-radius: 50px;
+    background-color: darkgrey;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 40px 10px 40px;
+}
+section {
+    font-size: 20px;
+    color: wheat;
+    background-color: black;
+    opacity: 70%;
+}
