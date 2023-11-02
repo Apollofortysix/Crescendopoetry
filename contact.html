@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Submit</title>
+        <style>
+            .bg {
+               background-image: url(/3963772f67ace0280c2df69a8040d2c7.jpg);
+            }
+            h1 {
+                font-size: 80px;
+                font-family: 'Courier New';
+                margin: 0px 0px 0px 0px;
+                color: ghostwhite;
+            }
+            h2 {
+                font-size: 30px;
+                font-family: 'Courier New';
+            }
+            fieldset {
+                background-color: navajowhite;
+                border-radius: 20px;
+            }
+            form input {
+                border-radius: 10px;
+                margin: 5px 5px 5px 5px;
+            }
+            form select {
+                border-radius: 10px;
+                margin: 5px 5px 5px 5px;
+            }
+            form textarea {
+                border-radius: 10px;
+            }
+            form button {
+                border-radius: 30px;
+            }
+            footer p {
+                font-size: 20px;
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+    
+    <body class="bg"class="">
+        <fieldset>
+            <legend><h1>SUBMIT</h1></legend>
+            <h2>Fill up this form to submit your creation.</h2>
+            <form action="https://formspree.io/f/mvojyzow" method="POST">
+            <input type="text" name="Name" placeholder="Full Name" required>
+        <br>
+            <input type="email" name="Email" placeholder="Email" required>
+            <div>
+                <select name="Country">
+                    <option name="Philippines">Philippines</option>
+                    <option value="China">China</option>
+                    <option value="America">America</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Korea">Korea</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <textarea name="Message" placeholder="Message" cols="30" rows="5" required></textarea>
+        <br>
+            <button type="email">Send</button>
+            </form>
+        </fieldset>
+        <footer>
+            <p><b>©Copyright | Crescendo Poetry</b></p>
+        </footer>
+    </body>
+</html>
