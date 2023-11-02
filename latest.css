@@ -1,0 +1,43 @@
+.bg {
+    background-image: url(3963772f67ace0280c2df69a8040d2c7.jpg);
+}
+nav {
+    font-size: 30px;
+    font-family: 'Courier New';
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 620px 0px 0px;
+}
+header h1 {
+    font-size: 50px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px 10px 20px 10px;
+    margin: 0px 150px 0px 150px;
+}
+article {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    margin: 0px 50px 0px 50px;
+}
+article h2 {
+    font-family: cursive;
+    color: white;
+    font-size: 100px;
+    margin: 0px 0px 0px 0px;
+}
+article h3 {
+    color: white;
+    font-size: 20px;
+}
+article p {
+    font-family: 'Courier New';
+    color: white;
+    font-size: 20px;
+    padding: 0px 30px 0px 30px;
+}
